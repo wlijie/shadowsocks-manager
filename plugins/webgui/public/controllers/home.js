@@ -42,17 +42,17 @@ app
   .controller('HomeIndexController', ['$scope', '$state',
     ($scope, $state) => {
       $scope.icons = [{
-        icon: 'flash_on',
-        title: '快速搭建',
-        content: '仅依赖Node.js，无需安装数据库（可选MySQL）',
+        icon: 'important_devices',
+        title: '访问任何内容',
+        content: '超快速的VPN服务器遍布94个国家。马上解锁您喜欢的网站和应用。',
       }, {
-        icon: 'build',
-        title: '易于配置',
-        content: '带有插件系统，仅需修改配置文件即可运行',
+        icon: 'verified_user',
+        title: '安全和匿名',
+        content: '我们对您的隐私和安全感到狂热。避免被黑客攻击或追踪，使用强大的加密。',
       }, {
-        icon: 'vpn_key',
-        title: '官方标准',
-        content: '支持libev和python版本的标准manager API',
+        icon: 'face',
+        title: '全天候客户服务',
+        content: '在几秒钟内获得帮助，而不是几天。通过在线聊天支持向我们提供任何问',
       }];
       $scope.login = () => { $state.go('home.login'); };
       $scope.signup = () => { $state.go('home.signup'); };
