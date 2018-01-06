@@ -33,7 +33,6 @@ try {
 } catch (err) {
   logger.error(err);
 }
-
 exports.all = () => {
   return config;
 };

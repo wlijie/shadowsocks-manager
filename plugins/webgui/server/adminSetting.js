@@ -32,7 +32,7 @@ setDefaultValue('account', {
   }
 });
 setDefaultValue('base', {
-  title: 'Shadowsocks-Manager',
+  title: 'PPSSK.TK',
   themeAccent: 'pink',
   themePrimary: 'blue',
   serviceWorker: false,

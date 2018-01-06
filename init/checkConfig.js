@@ -8,7 +8,6 @@ const log4js = require('log4js');
 const logger = log4js.getLogger('system');
 
 const ssmgrPath = path.resolve(os.homedir(), './.ssmgr/');
-
 program
   .version('shadowsocks-manager ' + version)
   .option('-c, --config [file]', 'config file, default: ~/.ssmgr/default.yml')
